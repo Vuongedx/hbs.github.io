@@ -95,3 +95,14 @@ li a {
 li a:hover {
   background-color: #87CEFA;
 }
+@media screen and (max-width: 600px) {
+  /* Điều chỉnh các thuộc tính CSS cho các màn hình có độ rộng nhỏ hơn 600px */
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  /* Điều chỉnh các thuộc tính CSS cho các màn hình có độ rộng từ 601px đến 900px */
+}
+
+@media screen and (min-width: 901px) {
+  /* Điều chỉnh các thuộc tính CSS cho các màn hình có độ rộng lớn hơn 901px */
+}
