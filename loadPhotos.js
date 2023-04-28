@@ -18,7 +18,7 @@ fetch('posts')
         <figure class="effect-ming tm-video-item">
           <img src="img/img-03.jpg" alt="Image" class="img-fluid">
           <figcaption class="d-flex align-items-center justify-content-center">
-            <h2>${title}</h2>
+            <h2>kỹ năng sống</h2>
             <a href="posts/${url}">View more</a>
           </figcaption>
         </figure>
