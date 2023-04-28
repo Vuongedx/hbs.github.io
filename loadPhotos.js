@@ -13,9 +13,9 @@ fetch('posts')
       postElement.classList.add('col-xl-3', 'col-lg-4', 'col-md-6', 'col-sm-6', 'col-12', 'mb-5');
       postElement.innerHTML = `
         <figure class="effect-ming tm-video-item">
-          <img src="${url}/thumbnail.jpg" alt="Image" class="img-fluid">
+          <img src="img/img-03.jpg" alt="Image" class="img-fluid">
           <figcaption class="d-flex align-items-center justify-content-center">
-            <h2>${title}</h2>
+            <h2>Kỹ năng sống</h2>
             <a href="${url}">View more</a>
           </figcaption>
         </figure>
