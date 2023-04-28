@@ -587,3 +587,24 @@ select:not([multiple]) {
 
     .tm-social-links li { margin-right: 3px; }
 }
+.my-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.my-iframe {
+  height: 600px;
+  width: 800px;
+  border: none;
+}
+.my-summary {
+  color: black;
+  font-weight: bold;
+}
+
+.my-content1 {
+  text-align: justify;
+  text-justify: inter-word;
+  color: black;
+}
