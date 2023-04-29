@@ -1,5 +1,6 @@
-i = 5
-for (let i = 0; i < url.length; i++) {
+const postContainer = document.querySelector('#post-container');
+n = 5
+for (let i = 0; i < n; i++) {
   const url = 'photo-detail.html'
   const postElement = document.createElement('div');
   postElement.classList.add('col-xl-3', 'col-lg-4', 'col-md-6', 'col-sm-6', 'col-12', 'mb-5');
