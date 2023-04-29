@@ -7,7 +7,7 @@ fetch('posts')
     const html = parser.parseFromString(data, 'text/html');
     const links = html.querySelectorAll('a');
     for (const link of links) {
-      const url = link.getAttribute('href').split('/').pop();
+      const url = 'photo-detail1.html'
       const title = link.textContent.trim();
       const postElement = document.createElement('div');
       postElement.classList.add('col-xl-3', 'col-lg-4', 'col-md-6', 'col-sm-6', 'col-12', 'mb-5');
